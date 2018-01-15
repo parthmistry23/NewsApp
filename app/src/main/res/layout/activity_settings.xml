@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name="org.parthapp.android.news.Helper.SettingsActivity$NewsPreferenceFragment"
+        android:id="@+id/settings_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="org.parthapp.android.news.Helper.SettingsActivity"/>
+
+</LinearLayout>

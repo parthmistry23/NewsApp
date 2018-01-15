@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Source Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_label">Sources</string>
+    <string name="settings_key" translatable="false">sources</string>
+    <string name="settings_default" translatable="false">@string/settings_value1</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_sources_label1">The Times Of India</string>
+    <string name="settings_value1" translatable="false">the-times-of-india</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_sources_label2">BBC News</string>
+    <string name="settings_value2" translatable="false">bbc-news</string>
+
+    <string name="settings_sources_label3">The New York Times</string>
+    <string name="settings_value3" translatable="false">the-new-york-times</string>
+
+    <string name="settings_sources_label4">CNN News</string>
+    <string name="settings_value4" translatable="false">cnn</string>
+
+    <string name="settings_sources_label5">Google News</string>
+    <string name="settings_value5" translatable="false">google-news</string>
+
+    <string name="settings_sources_label6">CNBC</string>
+    <string name="settings_value6" translatable="false">cnbc</string>
+</resources>
